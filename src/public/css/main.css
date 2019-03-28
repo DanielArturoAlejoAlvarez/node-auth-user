@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Titillium+Web:100,300,400,600,700,900);
+
+
+body{
+    background: #c0392b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: 'Titillium Web'!important;
+    font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h5,label {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.title {
+    text-transform: none!important;
+    font-weight: 600;
+}
+
+.navbar,header {
+    width: 100%!important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #333!important;
+}
+
+.nav-link, .dropdown-item {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.login {
+    position: relative;
+    top: 25%;   
+}
+
+.card {
+    box-shadow: 0px 4px 20px rgba(0,0,0,.4);
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #BBB;
+}

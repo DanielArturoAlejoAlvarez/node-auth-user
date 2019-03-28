@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-md-6 offset-md-3 mt-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="text-center">CREATE NOTE</h3>
+            </div>
+            <div class="card-body">
+                <form action="/notes/create" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Wtite a title..." class="form-control" autofocus>
+                    </div>
+                     <div class="form-group">
+                        <label for="task">Task:</label>
+                        <textarea name="task" class="form-control" placeholder="Write a task..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-dark btn-block btn-lg" value="CREATE NOTE">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
